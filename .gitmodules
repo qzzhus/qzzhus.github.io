@@ -1,0 +1,3 @@
+[submodule "themes/hugo-xmin-forked"]
+	path = themes/hugo-xmin-forked
+	url = https://github.com/QZ292/hugo-xmin-forked.git
