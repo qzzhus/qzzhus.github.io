@@ -33,7 +33,7 @@ menu:
 
 params:
   description: "null"
-  footer: "&copy; [QZ Zhu](https://github.com/qz292) {Year} |  Powered by [Hugo](https://gohugo.io/) | Theme [XMIN](https://github.com/yihui/hugo-xmin) | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
+  footer: "&copy; [QZ Zhu](https://github.com/qz292) {Year} |  Powered by [Hugo](https://gohugo.io/) | Theme [XMIN](https://github.com/qzzhus/hugo-xmin-forked) | [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)"
 
 markup:
   highlight:
