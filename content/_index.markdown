@@ -8,7 +8,9 @@ title: Home
 
 ## _subtitle_
 
-Some random words.
+<span class="material-symbols-outlined">
+  settings
+</span>Some random words.
 
 
 ```python
