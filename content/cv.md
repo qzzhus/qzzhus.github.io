@@ -45,7 +45,7 @@ title: Curriculum Vitae
   </div>
 </div>
 <!-- 下载函数 -->
-<script scr="/js/downloadlink.js"></script>
+<script src="{{ resources.Get "js/download.js" | relURL }}"></script>
 
 
 
