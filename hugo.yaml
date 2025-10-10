@@ -4,7 +4,7 @@ title: "ZHU"
 
 module:
   imports:
-    - path: https://github.com/qzzhus/hugo-xmin-forked
+    - path: github.com/qzzhus/hugo-xmin-forked
       disable: false
       ref: master
 
