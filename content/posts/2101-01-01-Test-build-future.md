@@ -3,7 +3,7 @@ title: Test build future
 author: 'ZHU'
 date: '2101-01-01'
 categories:
-  - Test Feature
+  - Test-Feature
 tags:
   - null
 ---
