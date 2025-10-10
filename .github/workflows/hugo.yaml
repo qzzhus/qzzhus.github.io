@@ -23,38 +23,36 @@ jobs:
     env:
       HUGO_VERSION: 0.151.0
     steps:
-      # Checkout the content repository (no submodules)
+      # 1.Checkout the content repository (no submodules)
       - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
           submodules: false   # ← 关闭子模块
-      # Install Go (required for Hugo Modules)
+      # 2.Install Go (required for Hugo Modules)
       - name: Setup Go
         uses: actions/setup-go@v5
         with:
           go-version: "1.20"
-      # Install Hugo CLI
+      # 3.Install Hugo CLI
       - name: Install Hugo CLI
         run: |
           wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
           && sudo dpkg -i ${{ runner.temp }}/hugo.deb
-      # Install Dart Sass
+      # 4.Install Dart Sass
       - name: Install Dart Sass
         run: sudo snap install dart-sass
-      # Initialize Hugo Modules
+      # 5.Initialize Hugo Modules
       - name: Initialize Hugo Modules
-        run: |
-          hugo mod init github.com/${{ github.repository }}
-          hugo mod get -u
-      # Setup Pages
+        run: hugo mod get -u
+      # 6.Setup Pages
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
-      # Install Node.js dependencies (optional)
+      # 7.Install Node.js dependencies (optional)
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      # Build with Hugo
+      # 8.Build with Hugo
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
