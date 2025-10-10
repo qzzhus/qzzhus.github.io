@@ -4,23 +4,16 @@ title: About
 
 # Contact Information
 
-<span class="material-symbols-outlined">
-domain
-</span>    The University of Tokyo<br>
+<p><span class="material-symbols-outlined">domain</span>&nbsp;&nbsp;&nbsp;&nbsp;The University of Tokyo</p>
 
-<span class="material-symbols-outlined">
-location_on
-</span>    Tokyo, Japan<br>
+<p><span class="material-symbols-outlined">location_on
+</span>&nbsp;&nbsp;&nbsp;&nbsp;Tokyo, Japan</p>
 
-<span class="material-symbols-outlined">
-mail
-</span>    <a href="mailto:none@example.org">Email Address</a><br>
+<p><span class="material-symbols-outlined">mail</span></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:none@example.org">Email Address</a></p>
 
-<span class="material-symbols-outlined">
-school</span>    <a href="https://scholar.google.com/citations?user=">Google Scholar</a>? etc.<br>
+<p><span class="material-symbols-outlined">school</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=">Google Scholar</a>? etc.</p>
 
-<span class="material-symbols-outlined">
-person</span>    <a href="https://x.com/">Social Media</a><br>
+<p><span class="material-symbols-outlined">person</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/">Social Media</a></p>
 
 # Brief Biography
 
