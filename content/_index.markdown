@@ -6,25 +6,17 @@ title: Home
 
 # Zhu's Homepage
 
-## _subtitle_
+<t>&#160</t>
 
-<span class="material-symbols-outlined">
-  settings
-</span>Some random words.
-
-
-```python
-for i in range(10)
-	etc.
-```
-
-```latex
-$$a^{\dagger}_{\lambda}a^{\dagger}_{\mu}\textbf{|}\Lambda\}=\textbf{|}\lambda\mu\Lambda\}=\zeta\textbf{|}\mu\lambda\Lambda\}=\zeta a^{\dagger}_{\mu}a^{\dagger}_{\lambda}\textbf{|}\Lambda\}$$
-```
-
-$$a^{\dagger}_{\lambda}a^{\dagger}_{\mu}\textbf{|}\Lambda\}=\textbf{|}\lambda\mu\Lambda\}=\zeta\textbf{|}\mu\lambda\Lambda\}=\zeta a^{\dagger}_{\mu}a^{\dagger}_{\lambda}\textbf{|}\Lambda\}$$
+### Add a bio
 
 ---
 
-# All Posts
+Add some contents for this front page.
+
+
+
+---
+
+# New Posts
 
