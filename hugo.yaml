@@ -1,7 +1,13 @@
 baseurl: "/"
 languageCode: "en-us"
 title: "ZHU"
-theme: "hugo-xmin-forked"
+
+module:
+  imports:
+    - path: https://github.com/qzzhus/hugo-xmin-forked
+      disable: false
+      ref: master
+
 googleAnalytics: ""
 disqusShortname: ""
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
