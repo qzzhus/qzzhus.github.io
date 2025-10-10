@@ -44,7 +44,9 @@ jobs:
         run: sudo snap install dart-sass
       # 5.Initialize Hugo Modules
       - name: Initialize Hugo Modules
-        run: hugo mod get -u
+        run:  |
+          hugo mod init github.com/${{ github.repository }}
+          hugo mod get -u
       # 6.Setup Pages
       - name: Setup Pages
         id: pages
