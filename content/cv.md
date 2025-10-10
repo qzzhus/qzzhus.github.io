@@ -4,17 +4,64 @@ title: Curriculum Vitae
 
 # Contact Information
 
-[<img src="https://raw.githubusercontent.com/qzzhus/qzzhus.github.io/bc97c716b30e70dd778b11fee2765f6c9eb773c8/resources/profile.png" style="max-width:20%;min-width:50px;float:right;border-radius:0%;" alt="Github repo" />](https://github.com/qzzhus)
+<div style="
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+">
+  <!-- 左列 -->
+  <div class="left" style="
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    order: 2;
+  ">
+    <p><span class="material-symbols-outlined">domain</span>&nbsp;&nbsp;&nbsp;&nbsp;The University of Tokyo</p>
+    <p><span class="material-symbols-outlined">location_on</span>&nbsp;&nbsp;&nbsp;&nbsp;Tokyo, Japan</p>
+    <p><span class="material-symbols-outlined">mail</span></span>&nbsp;&nbsp;&nbsp;&nbsp;<a ref="mailto:none@example.org">Email Address</a></p>
+    <p><span class="material-symbols-outlined">school</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=">Google Scholar</a>? etc.</p>
+    <p><span class="material-symbols-outlined">person</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/">Social Media</a></p>
+  </div>
+  <!-- 右列 -->
+  <div class="right" style="
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    order: 1;
+  ">
+    <img src="https://raw.githubusercontent.com/qzzhus/qzzhus.github.io/bc97c716b30e70dd778b11fee2765f6c9eb773c8/resources/profile.png" style="max-width:20%; min-width:50px; border-radius:0%;" alt="Github repo" />
+    <button id="download-btn" type="button" style="
+  padding: 6px 14px;
+  background-color: #afb4b8;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+">
+  Download
+</button>
+  </div>
+</div>
+<!-- 下载函数 -->
+<script>
+document.getElementById("download-btn").addEventListener("click", () => {
+  const url = "
+https://raw.githubusercontent.com/qzzhus/qzzhus.github.io/689a3c6b0e01240b562f4c0acd9cad102f432f59/resources/Curriculum%20Vitae.pdf";
+  const filename = "ZHU_Curriculum_Vitae.pdf";
 
-<p><span class="material-symbols-outlined">domain</span>&nbsp;&nbsp;&nbsp;&nbsp;The University of Tokyo</p>
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = filename;
+  link.style.display = "none";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+});
+</script>
 
-<p><span class="material-symbols-outlined">location_on</span>&nbsp;&nbsp;&nbsp;&nbsp;Tokyo, Japan</p>
 
-<p><span class="material-symbols-outlined">mail</span></span>&nbsp;&nbsp;&nbsp;&nbsp;<a ref="mailto:none@example.org">Email Address</a></p>
-
-<p><span class="material-symbols-outlined">school</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=">Google Scholar</a>? etc.</p>
-
-<p><span class="material-symbols-outlined">person</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://x.com/">Social Media</a></p>
 
 # Brief Biography
 

@@ -28,5 +28,5 @@ Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbiaucto
 
 # Curriculum Vitae
 
-My curriculum vitae can be found in [the curriculum vitae page](../cv/) or directly [download the file](download_link).
+My curriculum vitae can be found in [the curriculum vitae page](../cv/) or directly [download the file](https://raw.githubusercontent.com/qzzhus/qzzhus.github.io/689a3c6b0e01240b562f4c0acd9cad102f432f59/resources/Curriculum%20Vitae.pdf).
 
