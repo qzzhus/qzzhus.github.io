@@ -4,12 +4,13 @@ title: Curriculum Vitae
 
 # Contact Information
 
+[<img src="https://avatars.githubusercontent.com/u/123799445?v=4" style="max-width:20%;min-width:50px;float:right;border-radius:0%;" alt="Github repo" />](https://github.com/qzzhus)
+
 <p><span class="material-symbols-outlined">domain</span>&nbsp;&nbsp;&nbsp;&nbsp;The University of Tokyo</p>
 
-<p><span class="material-symbols-outlined">location_on
-</span>&nbsp;&nbsp;&nbsp;&nbsp;Tokyo, Japan</p>
+<p><span class="material-symbols-outlined">location_on</span>&nbsp;&nbsp;&nbsp;&nbsp;Tokyo, Japan</p>
 
-<p><span class="material-symbols-outlined">mail</span></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:none@example.org">Email Address</a></p>
+<p><span class="material-symbols-outlined">mail</span></span>&nbsp;&nbsp;&nbsp;&nbsp;<a ref="mailto:none@example.org">Email Address</a></p>
 
 <p><span class="material-symbols-outlined">school</span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://scholar.google.com/citations?user=">Google Scholar</a>? etc.</p>
 
