@@ -6,33 +6,23 @@ title: About Me
 
 <span class="material-symbols-outlined">
 domain
-</span> The University of Tokyo
-
-
+</span> The University of Tokyo<br>
 
 <span class="material-symbols-outlined">
 location_on
-</span> Tokyo, Japan
-
-
+</span> Tokyo, Japan<br>
 
 <span class="material-symbols-outlined">
 mail
-</span> [Email Address](mailto:none@example.org)
-
-
+</span> [Email Address](mailto:none@example.org)<br>
 
 <span class="material-symbols-outlined">
 school
-</span> [Google Scholar](https://scholar.google.com/citations?user=)? etc.
-
-
+</span> [Google Scholar](https://scholar.google.com/citations?user=)? etc.<br>
 
 <span class="material-symbols-outlined">
 person
 </span> Social Media
-
-
 
 # Brief Biography
 
