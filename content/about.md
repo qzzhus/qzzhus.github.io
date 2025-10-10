@@ -3,7 +3,7 @@ title: About
 ---
 # Contact Information
 
-[<img src="https://avatars.githubusercontent.com/u/123799445?v=4" style="max-width:20%;min-width:50px;float:right;border-radius:0%;" alt="Github repo" />](https://github.com/qzzhus)
+[<img src="https://raw.githubusercontent.com/qzzhus/qzzhus.github.io/bc97c716b30e70dd778b11fee2765f6c9eb773c8/resources/profile.png" style="max-width:20%;min-width:50px;float:right;border-radius:0%;" alt="Github repo" />](https://github.com/qzzhus)
 
 <p><span class="material-symbols-outlined">domain</span>&nbsp;&nbsp;&nbsp;&nbsp;The University of Tokyo</p>
 
