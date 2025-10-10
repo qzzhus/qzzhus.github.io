@@ -33,7 +33,7 @@ Modify **layouts/_partials/header.html**
 <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
 ```
 
-by adding `<t>&#160;&#160;</t>` afterwards into
+by adding `<t>&#160;&#160;&#160;&#160;</t>` afterwards into
 
 ```html
 <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li><t>&#160;&#160;</t>
@@ -41,7 +41,7 @@ by adding `<t>&#160;&#160;</t>` afterwards into
 
 ## 4. Add support for the use of icons from Google Font
 
-Add below to **layouts/_partials/header.html**
+Add below to **layouts/_partials/header_custom.html**
 
 ```html
     <!-- Google Font Icon Support -->
@@ -72,7 +72,7 @@ add_box
 
 To ensure icons (such as Material Symbols here) align properly with text fonts, we need to add a **custom.css** file to **static/css**. This file should modify the default baseline alignment (`vertical-align: baseline;`) to a more suitable alignment method.
 
-First add below to `<head>...</head>` in **layouts/_partials/header.html**
+First add below to `<head>...</head>` in **layouts/_partials/header_custom.html**
 
 ```html
     <!-- Custom css Support -->
