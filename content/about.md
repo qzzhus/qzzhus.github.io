@@ -1,26 +1,26 @@
 ---
-title: About Me
+title: About
 ---
 
 # Contact Information
 
 <span class="material-symbols-outlined">
 domain
-</span> The University of Tokyo<br>
+</span>    The University of Tokyo<br>
 
 <span class="material-symbols-outlined">
 location_on
-</span> Tokyo, Japan<br>
+</span>    Tokyo, Japan<br>
 
-<a href="mailto:none@example.org"><span class="material-symbols-outlined">
+<span class="material-symbols-outlined">
 mail
-</span> Email Address</a><br>
+</span>    <a href="mailto:none@example.org">Email Address</a><br>
 
-<a href="https://scholar.google.com/citations?user="><span class="material-symbols-outlined">
-school</span> Google Scholar</a>? etc.<br>
+<span class="material-symbols-outlined">
+school</span>    <a href="https://scholar.google.com/citations?user=">Google Scholar</a>? etc.<br>
 
-<a href="https://x.com/"><span class="material-symbols-outlined">
-person</span> Social Media</a><br>
+<span class="material-symbols-outlined">
+person</span>    <a href="https://x.com/">Social Media</a><br>
 
 # Brief Biography
 
@@ -29,15 +29,11 @@ This is where one adds biography.
 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut purus elit, vestibulum ut, placerat ac, adipiscing vitae, felis. Curabitur dictum gravida mauris. Nam arcu libero, nonummy eget, consectetuer id, vulputate a, magna. Donec vehicula augue eu neque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Mauris ut leo. Cras viverra metus rhoncus sem. Nulla et lectus vestibulum urna fringilla ultrices. Phasellus eu tellus sit amet tortor gravida placerat. Integer sapien est, iaculis in, pretium quis, viverra ac, nunc. Praesent eget sem vel leo ultrices bibendum. Aenean faucibus.
 Morbi dolor nulla, malesuada eu, pulvinar at, mollis ac, nulla. Curabitur aucto rsemper nulla. Donec varius orci eget risus. Duis nibh mi, congue eu, accumsan eleifend, sagittis quis, diam. Duis eget orci sit amet orci dignissim rutrum. 
 
-# Education Background
+# About this site
 
-2106~2109, PhD in Something, Graduate School of Something, Some University 
-
-2104~2106, Master of Something, Graduate School of Something, Some University 
-
-2100~2104, Bachelor of Something, School of Something, Some University 
+Nam dui ligula, fringilla a, euismod sodales, sollicitudin vel, wisi. Morbiauctor lorem non justo. Nam lacus libero, pretium at, lobortis vitae, ultricies et, tellus. Donec aliquet, tortor sed accumsan bibendum, erat ligula aliquet magna, vitae ornare odio metus a mi. Morbi ac orci et nisl hendrerit mollis. Suspendisse ut massa. Cras nec ante. Pellentesque a nulla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam tincidunt urna. Nulla ullamcorper vestibulum turpis. Pellentesque cursus luctus mauris.
 
 # Curriculum Vitae
 
- More detailed information is found in [the curriculum vitae page](../cv/) or directly [download the file](download_link).
+My curriculum vitae can be found in [the curriculum vitae page](../cv/) or directly [download the file](download_link).
 

@@ -6,21 +6,21 @@ title: Curriculum Vitae
 
 <span class="material-symbols-outlined">
 domain
-</span> The University of Tokyo<br>
+</span>    The University of Tokyo<br>
 
 <span class="material-symbols-outlined">
 location_on
-</span> Tokyo, Japan<br>
+</span>    Tokyo, Japan<br>
 
-<a href="mailto:none@example.org"><span class="material-symbols-outlined">
+<span class="material-symbols-outlined">
 mail
-</span> Email Address</a><br>
+</span>    <a href="mailto:none@example.org">Email Address</a><br>
 
-<a href="https://scholar.google.com/citations?user="><span class="material-symbols-outlined">
-school</span> Google Scholar</a>? etc.<br>
+<span class="material-symbols-outlined">
+school</span>    <a href="https://scholar.google.com/citations?user=">Google Scholar</a>? etc.<br>
 
-<a href="https://x.com/"><span class="material-symbols-outlined">
-person</span> Social Media</a><br>
+<span class="material-symbols-outlined">
+person</span>    <a href="https://x.com/">Social Media</a><br>
 
 # Brief Biography
 
