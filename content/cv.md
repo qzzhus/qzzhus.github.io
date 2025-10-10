@@ -4,20 +4,9 @@ title: Curriculum Vitae
 
 # Contact Information
 
-<div style="
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-">
+<div class="flex-container">
   <!-- 左列 -->
-  <div class="left" style="
-    max-width:60%; min-width:300px;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    order: 1;
-  ">
+  <div class="left">
     <p>
         <span class="material-symbols-outlined">domain</span>&nbsp;&nbsp;&nbsp;&nbsp;The University of Tokyo<br><br>
         <span class="material-symbols-outlined">location_on</span>&nbsp;&nbsp;&nbsp;&nbsp;Tokyo, Japan<br><br>
@@ -27,14 +16,7 @@ title: Curriculum Vitae
     </p>
   </div>
   <!-- 右列 -->
-  <div class="right" style="
-    max-width:40%; min-width:50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    order: 2;
-  ">
+  <div class="right">
     <img src="https://raw.githubusercontent.com/qzzhus/qzzhus.github.io/bc97c716b30e70dd778b11fee2765f6c9eb773c8/resources/profile.png" style="max-width:160px;min-width:50px; border-radius:0%;" alt="Github repo" />
 <button id="download-btn" type="button" style="
   padding: 6px 14px;
