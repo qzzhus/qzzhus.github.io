@@ -8,7 +8,7 @@ tags:
   - null
 ---
 ## 1. Basic Latex Support
-Add below to **layouts/_partials/foot_custom.html**
+Add below to `layouts/_partials/foot_custom.html`.
 
 ```html
 <!-- Latex Support -->
@@ -18,7 +18,7 @@ Add below to **layouts/_partials/foot_custom.html**
 
 ## 2. Images are centered alignment by default
 
-Add below to **layouts/_partials/foot_custom.html**
+Add below to `layouts/_partials/foot_custom.html`
 
 ```html
 <!-- image centered alignment -->
@@ -27,7 +27,7 @@ Add below to **layouts/_partials/foot_custom.html**
 
 ## 3. Add spaces between site menus
 
-Modify **layouts/_partials/header.html**
+Modify `layouts/_partials/header.html`
 
 ```html
 <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
@@ -41,14 +41,12 @@ by adding `<t>&#160;&#160;&#160;&#160;</t>` afterwards into
 
 ## 4. Add support for the use of icons from Google Font
 
-Add below to **layouts/_partials/header_custom.html**
+Add below to `layouts/_partials/header_custom.html`
 
 ```html
     <!-- Google Font Icon Support -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 ```
-
-between `  <head>...</head>` part.
 
 One can then add icons from [Google Fonts](https://fonts.google.com/icons) into your markdown files using a span block.
 
@@ -70,16 +68,16 @@ add_box
 
 ### 4.1 Vertical alignment problem of the material symbols font
 
-To ensure icons (such as Material Symbols here) align properly with text fonts, we need to add a **custom.css** file to **static/css**. This file should modify the default baseline alignment (`vertical-align: baseline;`) to a more suitable alignment method.
+To ensure icons (such as Material Symbols here) align properly with text fonts, we need to add a **custom.css** file to `./static/css`. This file should modify the default baseline alignment (`vertical-align: baseline;`) to a more suitable alignment method.
 
-First add below to `<head>...</head>` in **layouts/_partials/header_custom.html**
+First add below into `layouts/_partials/header_custom.html`.
 
 ```html
     <!-- Custom css Support -->
     <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}" />
 ```
 
-Then create **custom.css** at **static/css**
+Then create **custom.css** at `./static/css`.
 
 ```css
 .material-symbols-outlined {
