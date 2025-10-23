@@ -18,7 +18,7 @@ Add below to `layouts/_partials/foot_custom.html`.
 
 ## 2. Images are centered alignment by default
 
-Add below to `layouts/_partials/foot_custom.html`
+Add below to `layouts/_partials/foot_custom.html`.
 
 ```html
 <!-- image centered alignment -->
