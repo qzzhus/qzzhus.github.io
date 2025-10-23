@@ -9,9 +9,7 @@ tags:
 ---
 ## A flex container used in `about/contact information` and `cv/contact information`
 
-One can embed HTML in Markdown to create responsive containers. These containers will align elements horizontally on wide screens, but automatically stack them vertically and center them on narrow screens. However, to to simplify the md code and to reuse these containers, it is recommended to add the style in header by modifying `./layouts/_partials/head_custom.html` in your hugo theme.
-
-An example is as below:
+One can embed HTML in Markdown to create responsive containers. These containers will align elements horizontally on wide screens, but automatically stack them vertically and center them on narrow screens. For cleaner Markdown and reusable containers, it's better to define the styles in your Hugo theme's header. You can do this by editing the `./layouts/_partials/head_custom.html` file, like in the following example:
 
 <div class="flex-container">
     <div class="left">
