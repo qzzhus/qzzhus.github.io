@@ -41,7 +41,7 @@ by adding `<t>&#160;&#160;&#160;&#160;</t>` afterwards into
 
 ## 4. Add support for the use of icons from Google Font
 
-Add below to `layouts/_partials/header_custom.html`
+Add below to `layouts/_partials/header_custom.html`.
 
 ```html
     <!-- Google Font Icon Support -->
